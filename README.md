@@ -10,7 +10,6 @@
 ## Skenario A: Dua terminal di satu komputer
 ## Terminal 1 (Receiver, dijalankan lebih dulu):
 ```
-# Terminal 1 - Receiver (server)
 python chat.py listen --key 0123456789abcdef --port 5000
 ```
 Muncul: `Menunggu koneksi di port 5000 ...`
