@@ -10,13 +10,13 @@
 ## Skenario A: Dua terminal di satu komputer
 ## Terminal 1 (Receiver, dijalankan lebih dulu):
 ```
-python chat_des.py listen --key 0123456789abcdef --port 5000
+python chat_des.py listen --key KUNCI123 --port 5000
 ```
 Muncul: `Menunggu koneksi di port 5000 ...`
 
 ## Terminal 2 (Sender):
 ```
-python chat_des.py connect --key 0123456789abcdef --host 127.0.0.1 --port 5000
+python chat_des.py connect --key KUNCI123 --host 127.0.0.1 --port 5000
 ```
 
 ## Skenario B: Dua komputer atau dua VM
